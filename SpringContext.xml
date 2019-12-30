@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+<context:component-scan base-package="com.test"></context:component-scan>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<bean id="student" class="com.test.entity.StudentImpl">-->
+    <!--<property name="name" value="渣男啊"></property>-->
+    <!--<property name="id" value="1"></property>-->
+<!--</bean>-->
+    <!--<bean id="blackInk" class="com.test.entity.BlackInk"></bean>-->
+     <!--<bean id="colorInk" class="com.test.entity.ColorInk"></bean>-->
+
+
+<!--<bean id="print" class="com.test.entity.Print">-->
+<!--<property name="ink" ref="blackInk"></property>-->
+<!--</bean>-->
+
+<!--<bean id="test" class="com.test.entity.TestType">-->
+
+    <!--<property name="list">-->
+        <!--<list>-->
+            <!--<value>123</value>-->
+            <!--<ref bean="blackInk"></ref>-->
+            <!--<value>nihao</value>-->
+        <!--</list>-->
+
+    <!--</property>-->
+
+
+    <!--<property name="map">-->
+        <!--<map>-->
+           <!--<entry key="key1">-->
+                <!--<value>value1</value>-->
+           <!--</entry>-->
+            <!--<entry key="ink" value-ref="blackInk"></entry>-->
+        <!--</map>-->
+    <!--</property>-->
+<!--</bean>-->
+
+
+
+</beans>
